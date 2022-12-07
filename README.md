@@ -1,8 +1,8 @@
-#Objectifs : 
+# Objectifs : 
 
 Créer une application basée sur une architecture micro-service qui permet de gérer les factures contenant des produits et appartenant à un client.
 
-#Consignes : 
+# Consignes : 
 
 1.Créer le micro-service customer-service qui permet de gérer les client
 
@@ -28,7 +28,7 @@ Créer une application basée sur une architecture micro-service qui permet de g
 
 9. Sécuriser les micro-services et le frontend angular en déployant les adaptateurs Keycloak
 
-#Outils : 
+# Outils : 
 
 Spring cloud.
 
@@ -36,16 +36,16 @@ Intellij.
 
 Navigateur de choix.
 
-#Démarrer le projet :
+# Démarrer le projet :
 
 -Clôner le projet sur la repositoy : https://github.com/MaryamLemsyeh/Architacture-MS---Spring-Cloud
 -Démarrer les applications.
 -Démarrer l'outil d'enregistrement Eureka Discovery Client.
 
-#Explications et captures d'écran :
+# Explications et captures d'écran :
 
-## Créer le gatway qui va essayer de dispatcher les requettes vers les bons microservices.
-Méthode 1 :
+Créer le gatway qui va essayer de dispatcher les requettes vers les bons microservices.
+##Méthode 1 :
 pour configurer le gateway on peut utiliser un fichier de format .yml
 ![actuator 2](https://user-images.githubusercontent.com/105390951/206061225-90217f05-acfc-42f3-a0e2-61465400336b.PNG)
 ![beansactuator1](https://user-images.githubusercontent.com/105390951/206061219-63bd5439-a761-4512-aa20-d7690c86440a.PNG)
